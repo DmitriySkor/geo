@@ -1,3 +1,8 @@
+body{
+	font-family: Gotham Pro;
+}
+
+
 .header_wrap{
 	display: flex;
 	flex-direction: row;
@@ -10,11 +15,25 @@
 
 .logo a{
 	color:#000000;
-	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-size: 14px;
 	font-weight: 400;
 	text-decoration: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
+	align-items: center;
 }
+
+.logo img{
+	width: 158px;
+	height: 106px;
+}
+
+.logo ul{
+	list-style: none;
+	padding-left: 15px;
+	margin-bottom: 0;
+}
+
+
 
