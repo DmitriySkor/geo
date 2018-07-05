@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-	width: 1170px;
+	max-width: 1170px;
 }
 
 .header_wrap{
@@ -16,7 +16,7 @@ body{
 }
 
 .logo{
-	width: 660px;
+	/*width: 650px;*/
 }
 
 .logo a{
@@ -127,6 +127,12 @@ body{
 	font-size: 14px;
 	font-weight: 500;
 	color: #ffffff;
+	padding: 0;
+	border-right: 1px solid #ffffff;
+}
+
+.nav-item:last-child a{
+	border: 0;
 }
 
 /*--------------HEADER-NAV-----------*/
