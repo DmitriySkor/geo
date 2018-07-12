@@ -131,3 +131,25 @@
 	font-weight: 500;
 	font-style: italic;
 }
+
+@font-face {
+    
+	font-family: 'Fregat';
+
+        src: url('Fregat-Bold.eot');
+
+        src: url('Fregat-Bold.eot?#iefix') format('embedded-opentype'),
+        
+                url('Fregat-Bold.woff2') format('woff2'),
+        
+                url('Fregat-Bold.woff') format('woff'),
+        
+                url('Fregat-Bold.ttf') format('truetype');
+    
+        font-weight: bold;
+    
+        font-style: normal;
+
+}
+
+

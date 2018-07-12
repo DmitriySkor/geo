@@ -1,0 +1,301 @@
+
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.addr{
+		font-size: 12px;
+	}
+	.addr_msg{
+		margin-left: 0;
+	}
+	.nav-link{
+		font-size: 12px;
+	}
+
+	.about_content{
+		max-width: 630px;
+	}
+
+	.chief{
+		top:117px;
+	}
+
+	.cooperation_wrap{
+		max-width: 570px;
+	}
+
+	.form_check{
+		max-width: 500px;
+	}
+
+	.form_check input{
+		margin-right: 10px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.logo a{
+		justify-content: center;
+	}
+
+	.addr_msg{
+		flex-direction: column;
+		width: 50%;
+	}
+
+	.call{
+		flex-direction: column;
+		width: 50%;
+	}
+
+	.call .second_phone {
+    padding-left: 26px;
+	}
+
+	.head_btn{
+		margin-left: 26px;
+	}
+
+	.about_content{
+		max-width: 500px;
+    	font-size: 14px;
+	}
+
+	.about_list{
+		padding-left: 10px;
+    	max-width: 420px;
+	}
+
+	.chief{
+	    top: 48px;
+	    flex-direction: column-reverse;
+	    align-items: flex-end;
+	}
+
+	.cooperation_img{
+		display: none;
+	}
+
+	.footer_logo{
+		width: 100%;
+    	justify-content: center;
+    	display: flex;
+    	margin-bottom: 15px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.addr_msg{
+		flex-direction: column;
+		width: 50%;
+		margin-left: 0;
+	}
+
+	.call{
+		flex-direction: column;
+		width: 50%;
+	}
+
+	.call .second_phone {
+    padding-left: 26px;
+	}
+
+	.head_btn{
+		margin-left: 26px;
+	}
+
+	.fs_title {
+	    margin-top: 25px;
+	    font-size: 25px;
+	    margin-bottom: 0;
+	}
+
+	.fs_content_wrap{
+		padding-bottom: 35px;
+	}
+
+	.fs_content_text{
+		font-size: 18px;
+	}
+
+	.services{
+		margin-bottom: 15px;
+	}
+
+	.chief{
+		display: none;
+	}
+
+	.cooperation_img{
+		display: none;
+	}
+
+	.form_check input{
+		margin-right: 10px;
+	}
+
+	.cooperation_title{
+		text-align: center;
+	}
+
+	.footer_wrap{
+		flex-direction: column;
+	}
+	
+	.footer_logo,
+	.footer_copy_social,
+	.footer_write,
+	.footer_phone{
+		margin-bottom: 25px;
+	}
+
+}
+
+
+@media (max-width: 575.98px) {
+	.logo a{
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	.first_str, .third_str{
+		font-size: 12px;
+	}
+
+	.second_str{
+		font-size: 14px;
+	}
+
+	.addr_msg, .call{
+		display: flex;
+	    flex-direction: column;
+    	width: 100%;
+	}
+
+	.addr_msg{
+		margin-left: 0;
+	}
+
+	
+	.contacts{
+		flex-direction: column;
+	}
+
+	.call .second_phone {
+    padding-left: 26px;
+	}
+
+	.head_btn{
+		margin-left: 26px;
+	}
+
+	.addr{
+		margin-left: 0;
+	}
+
+	.first_screen{
+		background-image: none;
+		background-color: #f2f2f2;
+	}
+
+	.fs_title {
+	    margin-top: 25px;
+	    font-size: 20px;
+	    margin-bottom: 0;
+	}
+
+	.fs_content_wrap{
+		padding-bottom: 35px;
+	}
+
+	.fs_content_text{
+		font-size: 18px;
+	}
+
+	.services{
+		margin-bottom: 15px;
+	}
+
+	.fs_btn_left{
+		margin-right: 0;
+		margin-bottom: 15px;
+		padding: 15px 30px;
+	}
+
+	.chief{
+		display: none;
+	}
+
+	.seven_screen{
+		background-size: cover;
+	}
+
+	.cooperation_img{
+		display: none;
+	}
+
+	.form_check input{
+		margin-right: 10px;
+	}
+
+	.cooperation_title{
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.cooperation_form{
+		text-align: center;
+	}
+
+	.cooperation_form input{
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.phone_number_btn{
+		width: 245px;
+	}
+
+	.eighth_screen_title{
+		margin-top: 25px;
+		font-size: 30px;
+	}
+
+	.footer_wrap{
+		flex-direction: column;
+	}
+	
+	.footer_logo,
+	.footer_copy_social,
+	.footer_write,
+	.footer_phone{
+		margin-bottom: 25px;
+	}
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 991px) {
+	.navbar-brand{
+		display: block;
+	}
+
+	.nav-link{
+		border: 0;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+}
+
+
+
+
+
+

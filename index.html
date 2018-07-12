@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+
 
     <title>УПИК</title>
   </head>
@@ -19,7 +21,7 @@
       <div class="container">
         <div class="row">
           <div class="header_wrap">
-            <div class="col col-lg-7">
+            <div class="col-md-12 col-lg-7">
               <div class="logo">
                 <a href="index.html">
                 <img src="img/logo.png" alt="УПИК">
@@ -32,26 +34,26 @@
               </div>
             </div>
 
-            <div class="col col-lg-2">
-              <div class="addr_msg">
-                <img src="img/flags.png" width="12" height="16" alt="">
-                <div class="addr">
-                  <p>г. Уфа, ул. Муксинова 1/1,</p>
-                  <p>подъезд 14 офис 1</p>
+            <div class="col-md-12 col-lg-5">
+              <div class="contacts">
+                <div class="addr_msg">
+              
+                  <div class="addr">
+                    <p><img src="img/flags.png" class="phone_ico" width="12" height="16" alt="">г. Уфа, ул. Муксинова 1/1,</p>
+                    <p>подъезд 14 офис 1</p>
+                  </div>
+                  <div class="msg">
+                    <a href="whatsapp://send?phone=+120345678910" target="blank"><img src="img/whatsup.png" alt=""></a>
+                    <a href="viber://chat?number=+120345678910" target="blank"><img src="img/viber.png" alt=""></a>
+                    <a href="tg://resolve?domain=nikname" target="blank"><img src="img/telegram.png" alt=""></a>
+                  </div>
                 </div>
-                <div class="msg">
-                  <a href="whatsapp://send?phone=+120345678910"><img src="img/whatsup.png" alt=""></a>
-                  <a href="viber://chat?number=+120345678910"><img src="img/viber.png" alt=""></a>
-                  <a href="tg://resolve?domain=nikname"><img src="img/telegram.png" alt=""></a>
+             
+                <div class="call">
+                    <a href="tel:+83472464313" class="first_phone"><img src="img/call.png" alt="">8(347) 246-43-13</a>
+                    <a href="tel:+89273322226" class="second_phone">8(927) 332-22-26</a>
+                    <button type="button" class="head_btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
                 </div>
-              </div>
-            </div>
-
-            <div class="col col-lg-3">
-              <div class="call">
-                  <a href="tel:+83472464313" class="first_phone"><img src="img/call.png" alt="">8(347) 246-43-13</a>
-                  <a href="tel:+89273322226" class="second_phone">8(927) 332-22-26</a>
-                  <button type="button" class="head_btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
               </div>
             </div>
           </div>
@@ -63,9 +65,10 @@
           <div class="row">
             
             <nav class="navbar navbar-expand-lg">
-                <!-- <a class="navbar-brand" href="#">МЕНЮ</a> -->
+                <a class="navbar-brand" href="#">УПИК</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <img src="img/menu.png" class="menu_ico" alt="ico">
                  </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
@@ -97,35 +100,495 @@
           </div>
         </div>
       </div>
-
     </div>
+
+  <div class="first_screen">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="fs_content_wrap">
+          <h1 class="fs_title">Полный комплекс услуг в области геодезичечуих и кадастровых работ в Уфе и республике Башкортостан</h1>
+          <div class="fs_content">
+            <p class="fs_content_title">Специальное предложение</p>
+            <p class="fs_content_text">Только до конца февраля скидка на все услуги 15%!<br>
+            Успейте воспользоваться выгодным предложением!</p>
+            <a href="#" class="fs_btn_left" data-toggle="modal" data-target="#salemodal">Получить скидку 15%</a>
+            <a href="#" class="fs_btn_right" data-toggle="modal" data-target="#specmodal">Связаться со специалистом</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="second_screen">
+    <div class="container">
+      <div class="row">
+        <div class="ss_content_wrap">
+          <h2 class="screen_title">Наши услуги</h2>
+          <div class="our_serices">
+
+            <div class="services">
+              <img src="img/service1.png" alt="">
+              <p class="service_title">Геодезические работы</p>
+              <ul class="service_list">
+                <li>Топографическая съемка</li>
+                <li>Вынос границ в натуру</li>
+                <li>Фасадная съемка</li>
+                <li>Исполнительная съемка</li>
+                <li>Разбивочные работы</li>
+                <li>Подсчет объемов земляных масс</li>
+              </ul>
+              <a href="#">Подробнее</a>
+            </div>
+
+            <div class="services">
+              <img src="img/service2.png" alt="">
+              <p class="service_title">Межевание участков</p>
+              <ul class="service_list">
+                <li>Межевой план</li>
+                <li>Получение сведений ГКН и ЕГРП</li>
+                <li>Оспаривание кадастровой стоимости</li>
+              </ul>
+              <a href="#">Подробнее</a>
+            </div>
+
+            <div class="services">
+              <img src="img/service3.png" alt="">
+              <p class="service_title">Техническая инвентаризация</p>
+              <ul class="service_list">
+                <li>Технический план</li>
+                <li>Акт обследования</li>
+              </ul>
+              <a href="#">Подробнее</a>
+            </div>
+
+            <div class="services">
+              <img src="img/service4.png" alt="">
+              <p class="service_title">Инженерные изыскания</p>
+              <ul class="service_list">
+                <li>Инженерные изыскания</li>
+                <li>Геология для строительсва дома</li>
+              </ul>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="third_screen">
+    <div class="container">
+      <div class="row">
+        <div class="about_us_wrap">
+          <h2 class="screen_title">О компании</h2>
+          <div class="about_content">
+            <p>Основное направление деятельности ООО УПИК - выполнение геодезических и кадастровых работ. Мы оказываем полный спектр услуг в области кадастра объектов недвижимости, геодезического сопровождения строительства, инженерно-геодезических изысканий и других направлений.</p>
+            <p>Мы работаем как с юридическими, так и с физическими лицами.</p>
+            <p class="about_strong_text">Для грамотного решения задач наших клиентов мы используем несколько основных правил:</p>
+            <ul class="about_list">
+              <li>обязательная профессиональная подготовка кадастровых инженеров, имеющих аттестат;</li>
+              <li>мониторинг актуальности законодательства и судебной практики;</li>
+              <li>технологическая модернизация компании.</li>
+            </ul>
+          </div>
+          <div class="about_msg">
+             <a href="whatsapp://send?phone=+120345678910"><img src="img/whatsup.png" alt=""></a>
+             <a href="viber://chat?number=+120345678910"><img src="img/viber.png" alt=""></a>
+             <a href="tg://resolve?domain=nikname"><img src="img/telegram.png" alt=""></a>
+             <a href="https://www.vk.com" target="blank"><img src="img/vk.png" alt=""></a>
+             <a href="https://www.facebook.com" target="blank"><img src="img/fb.png" alt=""></a>
+             <a href="https://www.instagram.com" target="blank"><img src="img/insta.png" alt=""></a>
+          </div>
+
+          <div class="chief">
+            <div class="chief_text">
+              <p class="chief_name">ФИО РУКОВОДИТЕЛЯ</p>
+              <p class="chief_detail">Краткая информация об эксперте</p>
+            </div>
+          <img src="img/man.png" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth_screen">
+    <div class="container">
+      <div class="row">
+        <div class="sertificate_wrap">
+            <h2 class="screen_title_white">Мы имеем все необходимые допуски и сертификаты</h2>
+          <div class="sertificate_list">
+            <div class="sertificate">
+              <a data-fancybox="gallery" href="img/sertificate.png""><img src="img/sertificate.png""></a>
+            </div>
+            <div class="sertificate">
+             <a data-fancybox="gallery" href="img/sertificate.png""><img src="img/sertificate.png""></a>
+            </div>
+            <div class="sertificate">
+              <a data-fancybox="gallery" href="img/sertificate.png""><img src="img/sertificate.png""></a>
+            </div>
+            <div class="sertificate">
+              <a data-fancybox="gallery" href="img/sertificate.png""><img src="img/sertificate.png""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fifth_screen">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="workers_wrap">
+          <h2 class="screen_title">Коллектив нашей компании</h2>
+          <p class="workers_text">
+            Мы решаем даже самые сложные задачи в максимально кротчайшие сроки благодаря богатому профессиональному опыту в сфере геодезических, кадастровых работ, геологических и экологических изысканий, а также высочайшей квалификации наших специалистов.
+          </p>
+          <img src="img/workers.png" alt="">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sixth_screen">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="trust_us">
+            <h2 class="screen_title">Нам доверяют</h2>
+            <p class="trust_text">
+              Мы благодарны нашим заказчикам за выбор, сделанный в нашу пользу. Мы стремимся к тому, чтобы стабильно работать на высочайшем уровне и всегда оправдывать оказанное нам доверие.
+            </p>
+            <div class="trust_list">
+              <a href="#"><img src="img/partner1.png" alt=""></a>
+              <a href="#"><img src="img/partner2.png" alt=""></a>
+              <a href="#"><img src="img/partner3.png" alt=""></a>
+              <a href="#"><img src="img/partner4.png" alt=""></a>
+              <a href="#"><img src="img/partner5.png" alt=""></a>
+              <a href="#"><img src="img/partner6.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="seven_screen">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="cooperation_wrap">
+            <h2 class="cooperation_title">Приглашаем к сотрудничеству</h2>
+            <div class="cooperation_text">
+              <p class="cooperation_bold_text">
+                Вы являетесь нашим постоянным клиентом и хотели бы получать солидные скидки на услуги? Или Вы намерены стать нашим деловым партнером и получать за это вознаграждение?
+              </p>
+              <p class="cooperation_light_text">
+                Мы открыты для сотрудничества и приглашаем Вас обсуждать условия нашего взаимодействия!
+              </p>
+            </div>
+            <form action="#" class="cooperation_form">
+              <input type="text" id="phone_number" class="phone_input" placeholder="Введите номер телефона">
+              <button type="submit" class="phone_number_btn">Обсудить условия</button>
+              <div class="form_check">
+                <input type="checkbox" id="agree" checked="">
+                <label for="agree">- Я согласен на обработку моих персональных данных согласно условиям <a href="#">   политики конфиденциальности</a></label>
+              </div>
+            </form>
+          </div>
+          <img src="img/cooperation_img.png" class="cooperation_img" alt="">
+          <h2 class="screen_title eighth_screen_title">Актуальные новости и полезная информация</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="eighth_screen">
+    <div class="container">
+      <div class="row">
+        <div class="news_wrap">
+          <div class="news">
+              <img src="img/news-img.png" alt="">
+              <p class="news_title">Заголовок новости</p>
+              <p class="news_date">12 марта 2018</p>
+              <p class="news_text">
+                Краткое описание. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+              </p>
+              <a href="#">Читать подробнее &raquo;</a>
+          </div>
+          <div class="news">
+              <img src="img/news-img.png" alt="">
+              <p class="news_title">Заголовок новости</p>
+              <p class="news_date">12 марта 2018</p>
+              <p class="news_text">
+                Краткое описание. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+              </p>
+              <a href="#">Читать подробнее &raquo;</a>
+          </div>
+          <div class="news">
+              <img src="img/news-img.png" alt="">
+              <p class="news_title">Заголовок новости</p>
+              <p class="news_date">12 марта 2018</p>
+              <p class="news_text">
+                Краткое описание. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+              </p>
+              <a href="#">Читать подробнее &raquo;</a>
+          </div>
+          <div class="news">
+              <img src="img/news-img.png" alt="">
+              <p class="news_title">Заголовок новости</p>
+              <p class="news_date">12 марта 2018</p>
+              <p class="news_text">
+                Краткое описание. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+              </p>
+              <a href="#">Читать подробнее &raquo;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nine_screen">
+    <div class="container">
+      <div class="row">
+        <div class="contacts_screen_wrap">
+          <h2 class="contacts_title">Контакты</h2>
+          <div class="col-md-4">
+            <div class="contacts_screen">
+              <div class="contacts_phone">
+                <div class="phone_img">
+                  <img src="img/phone-ico.png" alt="">
+                </div>
+                <div class="phone_number">
+                  <p><a href="tel:+83472464313">8 (347) 246-43-13</a></p>
+                  <p><a href="tel:+89273322226">8 (927) 332-22-26</a></p>
+                </div>
+              </div>
+              <div class="contacts_mail">
+                <div class="contacts_mail_img">
+                  <img src="img/mail.png" alt="">
+                </div>
+                <div class="contacts_mail_mail">
+                  <p>upik.ooo@mail.ru</p>
+                </div>
+              </div>
+              <div class="contacts_addr">
+                <div class="contacts_addr_img">
+                  <img src="img/marker.png" alt="">
+                </div>
+                <div class="contacts_addr_addr">
+                  <p>г. Уфа, ул. Муксинова 1/1, подъезд 14 офис 1</p>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-8">
+            <div class="map">
+              <iframe src="https://yandex.ua/map-widget/v1/-/CBubMCEysB" frameborder="1" allowfullscreen="true"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header_nav">
+        <div class="container">
+          <div class="row">
+            
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">УПИК</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <img src="img/menu.png" class="menu_ico" alt="ico">
+                 </button>
+                    <div class="collapse navbar-collapse" id="navbarNav2">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Геодезические работы</a>
+                        </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="#">Межевание участков</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Техническая инвентаризация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Инженерные изыскания</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Новости и советы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                      </ul>
+                    </div>
+              </nav>
+
+          </div>
+        </div>
+      </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="footer_wrap">
+          <div class="footer_logo">
+            <a href="#">
+            <div class="footer_logo_img">
+              <img src="img/footer-logo.png" alt="">
+            </div>
+            <div class="footer_logo_desk">
+              <ul>
+                <li>ООО "УПИК"</li>
+                <li>ИНН: 0245026870</li>
+                <li>1140280039217</li>
+              </ul>
+            </div>
+            </a>
+          </div>
+
+          <div class="footer_copy_social">
+            <div class="footer_dev">
+              <p><a href="#" class="footer_politics">Политика конфиденциальности</a></p>
+              <p class="dev_link">Разработка сайта: <a href="http://www.akirov.ru" class="akirov">Акиров Игорь</a></p>
+            </div>
+            <div class="footer_social">
+              <p>Мы в соцсетях:</p>
+                <a href="https://www.vk.com" target="blank"><img src="img/vk.png" alt=""></a>
+                <a href="https://www.facebook.com" target="blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://www.instagram.com" target="blank"><img src="img/insta.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="footer_write">
+            <p>Напишите нам:</p>
+              <div class="msg">
+                  <a href="whatsapp://send?phone=+120345678910" target="blank"><img src="img/whatsup.png" alt=""></a>
+                  <a href="viber://chat?number=+120345678910" target="blank"><img src="img/viber.png" alt=""></a>
+                  <a href="tg://resolve?domain=nikname" target="blank"><img src="img/telegram.png" alt=""></a>
+              </div>
+          </div>
+          <div class="footer_phone">
+            <a href="tel:+83472464313" class="first_phone"><img src="img/call.png" alt="">8(347) 246-43-13</a>
+            <a href="tel:+89273322226" class="second_phone">8(927) 332-22-26</a>
+            <button type="button" class="head_btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
     
 
-    <!-- Modal -->
+    <!--ЗАКАЗАТЬ ЗВОНОК -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <h2 class="modal_title">Заказать звонок</h2>
+        <p class="modal_sub_title">
+          Специалист свяжется с Вами<br>
+          в течение 20 минут
+        </p>
+
+          <form action="#" class="modal_form">
+              <input type="text" id="phone_number" class="modal_phone_input" placeholder="Введите номер телефона">
+              <button type="submit" class="modal_number_btn">Заказать звонок</button>
+              <div class="modal_form_check">
+                <input type="checkbox" id="agree" checked="">
+                <label for="agree">- Я согласен на обработку моих персональных данных согласно условиям<br> <a href="#">   политики конфиденциальности</a></label>
+              </div>
+            </form>
+
       </div>
     </div>
   </div>
 </div>
 
+<!--Скидка 15% -->
+
+<div class="modal fade" id="salemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal_title sale_modal">Получить скидку 15%</h2>
+        <p class="modal_sub_title">
+          Специалист свяжется с Вами<br>
+          в течение 20 минут
+        </p>
+
+          <form action="#" class="modal_form">
+              <input type="text" id="phone_number" class="modal_phone_input" placeholder="Введите номер телефона">
+              <button type="submit" class="modal_number_btn">Получить скидку 15%</button>
+              <div class="modal_form_check">
+                <input type="checkbox" id="agree" checked="">
+                <label for="agree">- Я согласен на обработку моих персональных данных согласно условиям<br> <a href="#">   политики конфиденциальности</a></label>
+              </div>
+            </form>
+            </div>
+    </div>
+  </div>
+</div>
+
+<!--Связаться со специалистом -->   
+<div class="modal fade" id="specmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal_title sale_modal">Связаться со специалистом</h2>
+        <p class="modal_sub_title">
+          Специалист свяжется с Вами<br>
+          в течение 20 минут
+        </p>
+
+          <form action="#" class="modal_form">
+              <input type="text" id="phone_number" class="modal_phone_input" placeholder="Введите номер телефона">
+              <button type="submit" class="modal_number_btn number_btn_size">Связаться со специалистом</button>
+              <div class="modal_form_check">
+                <input type="checkbox" id="agree" checked="">
+                <label for="agree">- Я согласен на обработку моих персональных данных согласно условиям<br> <a href="#">   политики конфиденциальности</a></label>
+              </div>
+            </form>        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
